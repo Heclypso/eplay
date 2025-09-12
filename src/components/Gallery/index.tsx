@@ -1,13 +1,10 @@
-import spiderman from '../../assets/images/banner-homem-aranha.png'
-import hogwards from '../../assets/images/fundo_hogwarts.png'
-
+import { useState } from 'react'
 import zoom from '../../assets/images/zoom.png'
 import play from '../../assets/images/play.png'
 import close from '../../assets/images/close.png'
 
 import Section from '../Section'
 import { Action, Item, Items, Modal, ModalContent } from './styles'
-import { useState } from 'react'
 import { GalleryItem } from '../../Pages/Home/Index'
 
 type Props = {
