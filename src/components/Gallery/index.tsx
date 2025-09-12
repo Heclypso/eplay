@@ -73,21 +73,23 @@ const Gallery = ({ defaultCover, name, items }: Props) => {
         </Items>
       </Section>
       <Modal className={modal.isVisible ? 'visible' : ''}>
-        <ModalContent>
-          <header>
-            <h4>{name}</h4>
-            <img
-              onClick={() => closeModal()}
-              src={close}
-              alt="Ícone de fechar"
-            />
-          </header>
-          {modal.type === 'image' ? (
-            <img src={modal.url} />
-          ) : (
-            <iframe frameBorder={0} src={modal.url} />
-          )}
-        </ModalContent>
+        <div className="container">
+          <ModalContent>
+            <header>
+              <h4>{name}</h4>
+              <img
+                onClick={() => closeModal()}
+                src={close}
+                alt="Ícone de fechar"
+              />
+            </header>
+            {modal.type === 'image' ? (
+              <img src={modal.url} />
+            ) : (
+              <iframe frameBorder={0} src={modal.url} />
+            )}
+          </ModalContent>
+        </div>
         <div onClick={() => closeModal()} className="overlay"></div>
       </Modal>
     </>
