@@ -6,6 +6,7 @@ export const Container = styled.div`
   background-color: ${colors.gray};
   padding: 32px 0px;
   font-size: 14px;
+  margin-top: 40px;
 `
 
 export const SectionTitle = styled.h4`
