@@ -36,7 +36,7 @@ const ProductsList = ({ title, background, games, id }: Props) => {
     return tags
   }
   return (
-    <Container id={id} background={background}>
+    <Container id={id} $background={background}>
       <div className="container">
         <Title>{title}</Title>
         <List>

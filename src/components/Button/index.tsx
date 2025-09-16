@@ -6,7 +6,7 @@ export type Props = {
   to?: string
   onClick?: () => void
   children: string
-  variant?: 'primary' | 'secondary'
+  $variant?: 'primary' | 'secondary'
 }
 
 const Button = ({
@@ -15,12 +15,12 @@ const Button = ({
   title,
   onClick,
   to,
-  variant = 'primary'
+  $variant = 'primary'
 }: Props) => {
   if (type === 'button' || type === 'submit') {
     return (
       <ButtonContainer
-        variant={variant}
+        $variant={$variant}
         title={title}
         type={type}
         onClick={onClick}

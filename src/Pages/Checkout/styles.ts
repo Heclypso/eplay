@@ -10,7 +10,7 @@ type InputGroupProps = {
 }
 
 type TabButtonProps = {
-  isActive: boolean
+  $isActive: boolean
 }
 
 export const Row = styled.div<RowProps>`
@@ -47,7 +47,7 @@ export const TabButton = styled.button<TabButtonProps>`
   font-weight: bold;
   color: ${colors.white};
   background-color: ${(props) =>
-    props.isActive ? colors.green : colors.black};
+    props.$isActive ? colors.green : colors.black};
   height: 32px;
   border: none;
   margin-right: 16px;

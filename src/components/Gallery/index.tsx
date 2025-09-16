@@ -45,7 +45,7 @@ const Gallery = ({ defaultCover, name, items }: Props) => {
   }
   return (
     <>
-      <Section title="Galeria" background="black">
+      <Section title="Galeria" $background="black">
         <Items>
           {items.map((media, index) => (
             <Item
