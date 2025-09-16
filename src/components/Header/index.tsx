@@ -30,7 +30,9 @@ const Header = () => {
             <span />
           </S.Hamburger>
           <Link to="/">
-            <img src={logo} alt="Logo da EPLAY" />
+            <h1>
+              <img src={logo} alt="Logo da EPLAY" />
+            </h1>
           </Link>
           <nav>
             <S.Links>
@@ -61,7 +63,7 @@ const Header = () => {
             </S.Links>
           </nav>
         </div>
-        <S.CartButton onClick={openCart} href="#">
+        <S.CartButton role="button" onClick={openCart}>
           {items.length} <span>- Produto(s)</span>
           <img src={cartIcon} alt="Ícone do carrinho de compras" />
         </S.CartButton>
