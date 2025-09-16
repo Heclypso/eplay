@@ -41,7 +41,7 @@ export const Title = styled.h2`
   margin-bottom: 24px;
 `
 
-export const Price = styled.p`
+export const Prices = styled.p`
   font-size: 24px;
 
   span {
