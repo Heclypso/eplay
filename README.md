@@ -4,14 +4,14 @@ O projeto foi desenvolvido com o objetivo de desenvolver uma loja de jogos.
 
 ## Tecnologias Usadas
 
-- **React**: Framework;
-- **Styled-components**:  Cria os componentes e containers estilizados;
-- **Redux** e **Redux Tool Kit**: Criação e gestão do carrinho de compras;
-- **React Router DOM**: Criação e gestão das rotas;
-- **React Spinners**: Loaders;
-- **RTK Query**: Consumo e gerenciamento de dados da API;
-- **Formik**: Gerencia o estado e o envio do formulário;
-- **React Input Mask**: Cria as mascaras para os campos do formulário;
+- **React**: framework;
+- **Styled-components**:  cria os componentes e containers estilizados;
+- **Redux** e **Redux Tool Kit**: criação e gestão do carrinho de compras;
+- **React Router DOM**: criação e gestão das rotas;
+- **React Spinners**: loaders;
+- **RTK Query**: consumo e gerenciamento de dados da API;
+- **Formik**: gerencia o estado e o envio do formulário;
+- **React Input Mask**: cria as mascaras para os campos do formulário;
 - **Yup**: validação dos formulários.
 
 ## Técnicas e fundamentos desenvolvidos
